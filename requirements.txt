@@ -1,0 +1,12 @@
+# === Core Dependencies ===
+
+pqcrypto==0.2.3           # Post-quantum cryptography: CRYSTALS-Dilithium3 key/signature support
+base58==2.1.1             # Bitcoin-style Base58Check address encoding
+pysha3==1.0.2             # SHA3-256 support for hashing (used in address derivation)
+
+# === Optional / Useful Tools ===
+# tqdm==4.66.1            # Progress bar for bulk wallet generation (optional)
+# cryptography==42.0.5    # General cryptography toolkit (if future enhancements required)
+
+# === Python Version Compatibility ===
+# Python >= 3.7 is required due to pqcrypto C bindings
